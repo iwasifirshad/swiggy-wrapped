@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure the extension root has a high z-index context */
+#swiggy-wrapped-extension-root {
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Let clicks pass through to Swiggy by default */
+  /* Don't cover the page with a background */
+  background: transparent;
+  overflow: hidden;
+}
+
+/* Force pointer events for interactive elements */
+.pointer-events-auto {
+  pointer-events: auto !important;
+}

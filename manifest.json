@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Swiggy Wrapped 2025",
+  "version": "1.0",
+  "description": "Visualize your food year on Swiggy.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.swiggy.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.swiggy.com/*"],
+      "js": ["dist/index.js"],
+      "css": ["dist/swiggy.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["dist/*"],
+      "matches": ["https://www.swiggy.com/*"]
+    }
+  ]
+}
