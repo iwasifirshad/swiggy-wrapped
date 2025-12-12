@@ -24,14 +24,14 @@ Follow the steps below to run the extension locally.
    ```bash
    git clone <repo-url>
 
-**Navigate to the project directory**
+2. **Navigate to the project directory**
 ```bash
 cd swiggy-wrapped
 npm install
 npm run build
+```
 
-
-## 🧩 Load the Extension in Browser
+3. **🧩 Load the Extension in Browser**
 
 1. Open **Chrome** or **Microsoft Edge**
 2. Navigate to the Extensions page:
