@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Swiggy Wrapped 🍔📊
 
-# Run and deploy your AI Studio app
+A Chrome/Edge extension that gives you a **Swiggy Recap** of your food journey — inspired by Spotify Wrapped, but for cravings.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/2
+## 🚀 Getting Started
 
-## Run Locally
+Follow the steps below to run the extension locally.
 
-**Prerequisites:**  Node.js
+---
+
+## 📦 Prerequisites
+
+- Node.js (v16+ recommended)
+- npm
+- Google Chrome or Microsoft Edge
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone <repo-url>
+
+**Navigate to the project directory**
+```bash
+cd swiggy-wrapped
+npm install
+npm run build
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🧩 Load the Extension in Browser
+
+1. Open **Chrome** or **Microsoft Edge**
+2. Navigate to the Extensions page:
+   - **Chrome:** `chrome://extensions/`
+   - **Edge:** `edge://extensions/`
+3. Enable **Developer mode**
+4. Click **Load unpacked**
+5. Select the extension folder: `swiggy-wrapped`
+
+## ▶️ Using the Extension
+
+1. Open the following URL:
+2. The extension will **automatically trigger** on page load.
