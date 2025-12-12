@@ -44,5 +44,5 @@ npm run build
 
 ## ▶️ Using the Extension
 
-1. Open the following URL: https://www.swiggy.com/ex
+1. Open the following URL: https://www.swiggy.com/
 2. The extension will **automatically trigger** on page load.
