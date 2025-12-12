@@ -1,5 +1,4 @@
 # Swiggy Wrapped 🍔📊
-<img width="524" height="809" alt="image" src="https://github.com/user-attachments/assets/fa6b97b9-be36-41bd-8ca8-471dd3b10e02" />
 
 
 A Chrome/Edge extension that gives you a **Swiggy Recap** of your food journey — inspired by Spotify Wrapped, but for cravings.
